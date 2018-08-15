@@ -16,52 +16,48 @@
 			<button class="upload_button" id="trigger">
 				UPLOAD
 			</button>
-			<button class="SIGNUP_button" id="trigger2">
-				SIGN UP
-			</button>
-			<button class="LOGIN_button" id="trigger3">
-				LOG IN
-			</button>
 
 		</div>
 
 		<div class="modal">
         <div class="modal-content">
             <span class="close-button">&times;</span>
-            <p class="loginoverlay_text"> -or- </p>
-						<form class="login_overlay">
-							<input type="button" class="facebook_button" value="login via Facebook" onclick="window.location.href='index_loggedIn.html'">
-							<p class="inputfields_pw_name">USERNAME:</p><br>
-							<input type="text" class="inputfields" name="username">
-							<p class="inputfields_pw_name" id="inputfields_password">PASSWORD:</p><br>
-							<input type="text" class="inputfields" name="password">
-							<input class="submitbutton" type="button" value="LOGIN" onclick="window.location.href='index_loggedIn.html'" />
-						 </form>
-
+						<form class="upload_overlay">
+							<p class="upload_overlay_choosefile">UPLOAD</p><br>
+							<div class="dragndrop">
+								<p class="dropdescription">Grab your Audio and simply upload it here.</p>
+								<div class="droparea">
+									<a href ="upload.html">
+									<p class="droptext"> Drag and Drop your Audio file here<br>
+									 											or <u> select it from your computer.</u> </p>
+									</a>
+								</div>
+							</div>
+						</form>
         </div>
     </div>
 
 		<div class="nav_middle">
-				<button class="UPLOAD" id="trigger4" > upload </button>
+				<button class="UPLOAD" id="trigger2"> upload </button>
 		</div>
 
 		<div class="featured_artists">
 			<p class="h1" id="featured_artitsts_text"> FEATURED ARTISTS </p>
 			<div class="featured_artist">
-				<a href="profile_01.html">
+				<a href="profile_01_loggedIn.html">
 					<img class="featured_artist_avatar" src="media/avatars/avatar1.png">
 				<a/>
 			</div>
 			<div class="featured_artist">
-				<a href="profile_01.html" ></a>
+				<a href="profile_01_loggedIn.html" ></a>
 					<img class="featured_artist_avatar" src="media/avatars/avatar2.png">
 			</div>
 			<div class="featured_artist">
-				<a href="profile_01.html"></a>
+				<a href="profile_01_loggedIn.html"></a>
 					<img class="featured_artist_avatar" src="media/avatars/avatar3.png">
 			</div>
 			<div class="featured_artist">
-				<a href="profile_01.html"></a>
+				<a href="profile_01_loggedIn.html"></a>
 					<img class="featured_artist_avatar" src="media/avatars/avatar4.png">
 			</div>
 
@@ -73,6 +69,8 @@
 			<p class="songmeta_title"> Wait For Me (WIP) </p>
 			<p class="songmeta_description"> hmu if you agree </p>
 
+			<input class="button_collab" type="button" value="collab" onclick="window.location.href='collab_request.html'" />
+
 			<div class="h1" id="waveformWaitforme">
 				<button onclick="wavesurferWaitforme.playPause()" class="player_button">
 				</button>
@@ -82,6 +80,8 @@
 		<div class="player">
 			<p class="songmeta_title"> EgoBeat (94) </p>
 			<p class="songmeta_description"> collab bruh? </p>
+
+			<input class="button_collab" type="button" value="collab" onclick="window.location.href='collab_request.html'" />
 
 			<div id="waveformBeat">
 				<button onclick="wavesurferBeat.playPause()" class="player_button">

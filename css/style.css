@@ -7,6 +7,7 @@ p {
 h1 {
 
 }
+
 .nav_top {
 		background-color: #99FF99;
 		width: 100vw;
@@ -122,12 +123,100 @@ h1 {
 }
 .songmeta_description {
 	margin-left: 150px;
-	margin-top: 10px;
+	margin-top: 15px;
 	font-size: 18px;
 	color: grey;
+	position: absolute;
+
 }
-#login_overlay {
-	background: white;
+.songmeta_description_upload {
+	margin-left: -240px;
+	margin-top: 90px;
+	font-size: 18px;
+	color: grey;
+	position: absolute;
+
+}
+.inputfields {
+	width: 20rem;
+	height: 3rem;
+	margin-bottom: 10px;
+	border-color: #f2f2f2;
+	border-style: groove;
+	border-width: thin;
+	margin-top: 50px;
+	border-radius: 2px;
+}
+.inputfields_collabrequest {
+	width: 85%;
+	height: 10rem;
+	margin-bottom: 10px;
+	border-color: #f2f2f2;
+	border-style: groove;
+	border-width: thin;
+	margin-top: 100px;
+	border-radius: 2px;
+	margin-left: 100px;
+}
+.login_overlay {
+	padding-top: 100px;
+	padding-left: 5rem;
+	margin-top: 200px;
+}
+.loginoverlay_text {
+	width: 5rem;
+	padding-left: 14rem;
+	margin-top: 18rem;
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+	color: #737373;
+}
+.submitbutton {
+	width: 10rem;
+	height: 4rem;
+	margin-bottom: 10px;
+	text-decoration: none;
+	border: none;
+	background-color: #4CAF50; /* Green */
+	color: white;
+	border-radius: 2px;
+	margin-top: 100px;
+	margin-left: 5rem;
+	cursor: pointer;
+}
+.submitbutton_upload {
+	width: 6rem;
+	height: 2rem;
+	margin-bottom: 10px;
+	text-decoration: none;
+	border: none;
+	background-color: #4CAF50;
+	color: white;
+	border-radius: 2px;
+	margin-top: 135px;
+	margin-left: 92rem;
+	cursor: pointer;
+	position: absolute;
+
+}
+.facebook_button {
+	width: 20rem;
+	height: 4rem;
+	margin-bottom: 10px;
+	text-decoration: none;
+	border: none;
+	background-color: #3B5998; /* Green */
+	color: white;
+	border-radius: 2px;
+	margin-top: -8rem;
+	position: absolute;
+	cursor: pointer;
+}
+.inputfields_pw_name {
+	position: absolute;
+	padding-top: 1rem;
+	font-family: 'Roboto', sans-serif;
+	color: #737373;
 }
 
 #waveformWaitforme{
@@ -162,7 +251,49 @@ h1 {
 	padding-top: 70px;
 	padding-bottom: 50px;
 }
+#inputfields_password {
+	padding-top: : -1rem !important;
+}
 
+.upload_overlay_choosefile {
+	text-align: center;
+	margin-top: 50px;
+}
+.dragndrop {
+	background: #e2e2e2;
+	margin-top: 45px;
+	width: 100%;
+	height: 545px;
+	margin-left: -24px;
+	padding-right: 48px;
+}
+.droparea {
+	background: white;
+	margin-left: 25px;
+	margin-top: 200px;
+	position: absolute;
+	width: 90%;
+	height: 315px;
+	border-style: dashed;
+	border-width: 3px;
+	border-color: #c4c4c4;
+
+}
+.dropdescription {
+	color: #595959;
+	position: absolute;
+	margin-left: 120px;
+	font-size: 14px;
+	margin-top: 30px;
+}
+.droptext {
+	color: grey;
+	position: absolute;
+	margin-left: 100px;
+	font-size: 18px;
+	margin-top: 30%;
+	cursor: pointer;
+}
 .player_button {
 	background: #99FF99;
 	display: inline-block;
@@ -177,6 +308,34 @@ h1 {
 	margin-left: -150px;
   cursor: pointer;
 }
+.button_collab {
+	width: 6rem;
+	height: 2rem;
+	margin-bottom: 10px;
+	text-decoration: none;
+	border: none;
+	background-color: #4CAF50;
+	color: white;
+	border-radius: 2px;
+	margin-top: 200px;
+	margin-left: 118rem;
+	cursor: pointer;
+	position: absolute;
+}
+.button_collabrequest {
+	width: 6rem;
+	height: 2rem;
+	margin-bottom: 10px;
+	text-decoration: none;
+	border: none;
+	background-color: #4CAF50;
+	color: white;
+	border-radius: 2px;
+	margin-top: 275px;
+	margin-left: 4rem;
+	cursor: pointer;
+	position: absolute;
+}
 .upload_button {
 	  position: absolute;
     background-color: #31a031;
@@ -185,6 +344,7 @@ h1 {
     color: white;
 		margin-left: 80vw;
     text-decoration: none;
+		cursor: pointer;
 }
 .SIGNUP_button {
 	  position: absolute;
@@ -194,6 +354,7 @@ h1 {
     color: white;
 		margin-left: 85vw;
     text-decoration: none;
+		cursor: pointer;
 }
 .LOGIN_button {
 	  position: absolute;
@@ -203,8 +364,8 @@ h1 {
     color: white;
 		margin-left: 90vw;
     text-decoration: none;
+		cursor: pointer;
 }
-
 .UPLOAD {
 		background-color: #4CAF50; /* Green */
     border: none;
@@ -214,19 +375,21 @@ h1 {
     display: inline-block;
     font-size: 22px;
 		border-radius: 10%;
-		margin-left: 45%;
+		margin-left: 50%;
 		margin-top: 80px;
 		padding: 10px 15px 10px 15px;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		cursor: pointer;
 
 }
-
 .footer {
 	  display: flex;
 	  align-items: center;
 	  justify-content: center;
 		padding-top: 30px;
 }
-
 .modal {
     position: fixed;
     left: 0;
@@ -237,17 +400,20 @@ h1 {
     opacity: 0;
     visibility: hidden;
     transform: scale(1.1);
+		z-index: 10;
     transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
 }
 .modal-content {
+	  border-radius: 5px;
     position: absolute;
     top: 50%;
     left: 50%;
+		z-index: 10;
     transform: translate(-50%, -50%);
     background-color: white;
     padding: 1rem 1.5rem;
-    width: 24rem;
-    border-radius: 0.5rem;
+    width: 30rem;
+		height: 50rem;
 }
 .close-button {
     float: right;
@@ -266,4 +432,8 @@ h1 {
     visibility: visible;
     transform: scale(1.0);
     transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+#hidden {
+	visibility: hidden;
 }
