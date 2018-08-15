@@ -1,0 +1,269 @@
+body {
+		background: #f4f4f4;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+  }
+h1 {
+
+}
+.nav_top {
+		background-color: #99FF99;
+		width: 100vw;
+		height: 50px;
+}
+.nav_middle {
+		background-color: #99FF99;
+		width: 100vw;
+		margin-top: 150px;
+		height: 200px;
+}
+.featured_artists {
+		background: white;
+		width: 80vw;
+		margin-top: 100px;
+		margin-left: 10vw;
+		margin-right: 10vw;
+		height: 300px;
+		border-style: solid;
+		border-width: 1px;
+		border-color: rgba(0,0,0,0.12);
+}
+.featured_artist_avatar {
+		border-radius: 100%;
+		width: 150px;
+		height: 150px;
+		background: grey;
+		margin-left: 75px;
+		margin-top: 75px;
+		float: left;
+		margin-right: 8.25vw;
+		z-index: 3;
+		opacity: 1;
+		transition: .3s;
+}
+.featured_artist_avatar:hover {
+		background-color: #99FF99;
+		opacity: 0.7;
+		-webkit-box-shadow: 0px 0px 10px 0px rgba(153,255,153,1);
+		-moz-box-shadow: 0px 0px 10px 0px rgba(153,255,153,1);
+		box-shadow: 0px 0px 10px 0px rgba(153,255,153,1);
+
+
+}
+.artist_avatar {
+	border-radius: 100%;
+	width: 150px;
+	height: 150px;
+	background: grey;
+	margin-left: 75px;
+	margin-top: 25px;
+	float: left;
+	margin-right: 8.25vw;
+	z-index: 3;
+	opacity: 1;
+	transition: .3s;
+}
+.artistinfo{
+	background: rgba(255,255,255,0);
+	width: 80vw;
+	margin-top: 100px;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	height: 300px;
+}
+.artistinfo_name {
+	margin-left: 330px;
+	margin-top: 0px;
+	padding-top: 45px;
+	color:#4c4c4c;
+	font-size: 26px;
+
+}
+.artistinfo_description {
+	margin-left: 330px;
+	margin-top: 25px;
+	color: grey;
+	font-size: 20px;
+}
+.artistinfo_link {
+	margin-left: 330px;
+	margin-top: 10px;
+	color: grey;
+	font-size: 20px;
+	text-decoration: underline !important;
+}
+.artist_link {
+		border-radius: 100%;
+		width: 150px;
+		height: 150px;
+		margin-left: 75px;
+		margin-top: 75px;
+		float: left;
+		margin-right: 8.25vw;
+		opacity: 0;
+}
+.player {
+		background: white;
+		width: 80vw;
+		margin-top: 100px;
+		margin-left: 10vw;
+		margin-right: 10vw;
+		height: 350px;
+		border-style: solid;
+		border-width: 1px;
+		border-color: rgba(0,0,0,0.12);
+}
+.songmeta_title {
+	margin-left: 150px;
+	margin-top: 50px;
+	font-size: 22px;
+	color: #4c4c4c;
+}
+.songmeta_description {
+	margin-left: 150px;
+	margin-top: 10px;
+	font-size: 18px;
+	color: grey;
+}
+#login_overlay {
+	background: white;
+}
+
+#waveformWaitforme{
+		margin-top: 20px;
+		margin-left: 15vw;
+		margin-right: 25vw;
+		position: absolute;
+		height: 100px;
+		width: 55vw;
+		cursor: pointer;
+
+}
+#waveformBeat{
+		margin-top: 20px;
+		margin-left: 15vw;
+		margin-right: 25vw;
+		position: absolute;
+		height: 50px;
+		width: 57vw;
+		cursor: pointer;
+}
+#featured_artitsts_text {
+	color:#4c4c4c;
+	font-size: 22px;
+	margin-top: -130px;
+	padding-top: 70px;
+}
+#featured_tracks_text {
+	color:#4c4c4c;
+	font-size: 22px;
+	margin-top: -130px;
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+
+.player_button {
+	background: #99FF99;
+	display: inline-block;
+	padding: 6px 14px;
+	border: 1px solid #99FF99;
+	color: #07a;
+	content: '\25BA';
+	padding-top: 50px;
+	margin-top: 35px;
+	padding-left: 50px;
+	position: absolute;
+	margin-left: -150px;
+  cursor: pointer;
+}
+.upload_button {
+	  position: absolute;
+    background-color: #31a031;
+    border: none;
+		padding-top: 34px;
+    color: white;
+		margin-left: 80vw;
+    text-decoration: none;
+}
+.SIGNUP_button {
+	  position: absolute;
+    background-color: #49c649;
+    border: none;
+		padding-top: 34px;
+    color: white;
+		margin-left: 85vw;
+    text-decoration: none;
+}
+.LOGIN_button {
+	  position: absolute;
+    background-color: #49c649;
+    border: none;
+		padding-top: 34px;
+    color: white;
+		margin-left: 90vw;
+    text-decoration: none;
+}
+
+.UPLOAD {
+		background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+		border-radius: 10%;
+		margin-left: 45%;
+		margin-top: 80px;
+		padding: 10px 15px 10px 15px;
+
+}
+
+.footer {
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+		padding-top: 30px;
+}
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1rem 1.5rem;
+    width: 24rem;
+    border-radius: 0.5rem;
+}
+.close-button {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: lightgray;
+}
+.close-button:hover {
+    background-color: darkgray;
+}
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}

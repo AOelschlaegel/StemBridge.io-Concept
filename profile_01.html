@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+
+	<title>StemBridge.io</title>
+</head>
+<body>
+
+<script src="script/wavesurfer.min.js"></script>
+		<div class="nav_top">
+			<button class="upload_button">
+				UPLOAD
+			</button>
+			<button class="SIGNUP_button">
+				SIGN UP
+			</button>
+			<button class="LOGIN_button">
+				LOG IN
+			</button>
+		</div>
+
+
+		<div class="nav_middle">
+			<div class="artistinfo">
+					<a href="profile_01.html">
+						<img class="artist_avatar" src="media/avatars/avatar1.png">
+					</a>
+					<p class ="artistinfo_name"> ARTIST X </p>
+					<p class ="artistinfo_description"> brief description </p>
+					<a href="profile_01.html">
+					<p class ="artistinfo_link"> https://stembridge.io/artistx </p>
+				</a>
+				</div>
+
+			</div>
+
+
+
+		<div class="player">
+			<p class="songmeta_title"> Wait For Me (WIP) </p>
+			<p class="songmeta_description"> hmu if you agree </p>
+
+			<div id="waveformWaitforme">
+				<button onclick="wavesurferWaitforme.playPause()" class="player_button">
+				</button>
+			</div>
+
+		</div>
+		<div class="player">
+			<p class="songmeta_title"> EgoBeat (94) </p>
+			<p class="songmeta_description"> collab bruh? </p>
+
+			<div id="waveformBeat">
+				<button onclick="wavesurferBeat.playPause()" class="player_button">
+				</button>
+			</div>
+
+		</div>
+		<script src="script/script.js"></script>
+
+</body>
+<footer class="footer">
+	<p>(c)Albert Oelschlaegel</p>
+</footer>
+</html>
