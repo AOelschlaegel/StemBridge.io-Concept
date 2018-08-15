@@ -1,0 +1,113 @@
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="StemBridgeDoc.io" resolutions="1x" timestamp="1534370383183">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="index.css" crc="3988367188" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="interface.mp4" crc="289551364" seo="true" mt="1534358312000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="3803043152" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="4153641093" ref="index"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index"/>
+    <file name="require.js" crc="4157109226" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="home-crop-u190.jpg" crc="3848710564" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="home-crop-u180.jpg" crc="3848710564" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u100-4.png" crc="420838054" ref="index"/>
+    <file name="wireframes.jpg" crc="3868278546" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="comp cc-element-crop-u441.jpg" crc="4142593375" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="comp cc-element-crop-u443.jpg" crc="4077286974" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="comp cc-element 2-crop-u445.jpg" crc="164445734" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="comp cc-element 5-crop-u451.jpg" crc="4232128528" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="comp cc-element 3-crop-u447.jpg" crc="372665932" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="comp cc-element 6-crop-u453.jpg" crc="243707314" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="comp cc-element 4-crop-u449.jpg" crc="323589261" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="comp cc-element 2-crop-u455.jpg" crc="4105534837" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="comp cc-element 3-crop-u457.jpg" crc="165513588" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="comp cc-element 4-crop-u459.jpg" crc="479610386" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="comp cc-element 5-crop-u461.jpg" crc="3981053349" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="comp cc-element 6-crop-u463.jpg" crc="4210764784" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="comp cc-element 7-crop-u465.jpg" crc="4146262291" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="comp cc-element 7-crop-u467.jpg" crc="457879564" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="comp cc-element 8-crop-u469.jpg" crc="3971515011" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="comp cc-element 9-crop-u471.jpg" crc="4172182586" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="persona1.png" crc="99415629" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="home-crop-u107.jpg" crc="3973970088" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="loginmask-crop-u134.png" crc="499637673" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="upload-crop-u141.png" crc="4222108033" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="giphy.gif" crc="3865305284" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1.jpg" crc="532227252" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u599-5.png" crc="149475392" ref="index"/>
+    <file name="2.jpg" crc="3778638578" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u613-4.png" crc="433941328" ref="index"/>
+    <file name="3.jpg" crc="377816737" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u629-4.png" crc="4252255285" ref="index"/>
+    <file name="4.jpg" crc="4230491977" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u645-4.png" crc="3790773771" ref="index"/>
+    <file name="5.jpg" crc="4144976575" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u661-4.png" crc="190093266" ref="index"/>
+  </folder>
+  <file name="index.html" crc="276982853" seo="true" mt="1534370325588" redirect="true"/>
+</manifest>

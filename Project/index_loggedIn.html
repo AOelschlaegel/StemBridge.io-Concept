@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/jqueryui.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<title>StemBridge.io</title>
+</head>
+<body>
+
+<script src="script/wavesurfer.min.js"></script>
+
+		<div class="nav_top">
+
+			<button class="upload_button" id="trigger">
+				UPLOAD
+			</button>
+
+		</div>
+
+		<div class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+						<form class="upload_overlay">
+							<p class="upload_overlay_choosefile">UPLOAD</p><br>
+							<div class="dragndrop">
+								<p class="dropdescription">Grab your Audio and simply upload it here.</p>
+								<div class="droparea">
+									<a href ="upload.html">
+									<p class="droptext"> Drag and Drop your Audio file here<br>
+									 											or <u> select it from your computer.</u> </p>
+									</a>
+								</div>
+							</div>
+						</form>
+        </div>
+    </div>
+
+		<div class="nav_middle">
+				<button class="UPLOAD" id="trigger2"> upload </button>
+		</div>
+
+		<div class="featured_artists">
+			<p class="h1" id="featured_artitsts_text"> FEATURED ARTISTS </p>
+			<div class="featured_artist">
+				<a href="profile_01_loggedIn.html">
+					<img class="featured_artist_avatar" src="media/avatars/avatar1.png">
+				<a/>
+			</div>
+			<div class="featured_artist">
+				<a href="profile_01_loggedIn.html" ></a>
+					<img class="featured_artist_avatar" src="media/avatars/avatar2.png">
+			</div>
+			<div class="featured_artist">
+				<a href="profile_01_loggedIn.html"></a>
+					<img class="featured_artist_avatar" src="media/avatars/avatar3.png">
+			</div>
+			<div class="featured_artist">
+				<a href="profile_01_loggedIn.html"></a>
+					<img class="featured_artist_avatar" src="media/avatars/avatar4.png">
+			</div>
+
+		</div>
+
+
+		<div class="player">
+			<p id ="featured_tracks_text"> FEATURED TRACKS </p>
+			<p class="songmeta_title"> Wait For Me (WIP) </p>
+			<p class="songmeta_description"> hmu if you agree </p>
+
+			<input class="button_collab" type="button" value="collab" onclick="window.location.href='collab_request.html'" />
+
+			<div class="h1" id="waveformWaitforme">
+				<button onclick="wavesurferWaitforme.playPause()" class="player_button">
+				</button>
+			</div>
+
+		</div>
+		<div class="player">
+			<p class="songmeta_title"> EgoBeat (94) </p>
+			<p class="songmeta_description"> collab bruh? </p>
+
+			<input class="button_collab" type="button" value="collab" onclick="window.location.href='collab_request.html'" />
+
+			<div id="waveformBeat">
+				<button onclick="wavesurferBeat.playPause()" class="player_button">
+				</button>
+			</div>
+
+		</div>
+		<script src="script/script.js"></script>
+		<script src="script/jqueryui.js"></script>
+
+</body>
+<footer class="footer">
+	<p>(c)Albert Oelschlaegel</p>
+</footer>
+</html>
